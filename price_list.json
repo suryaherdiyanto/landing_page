@@ -1,0 +1,22 @@
+[
+    {
+        "package_name":"Bayi",
+        "price": 19900,
+        "sale_price": 14900
+    },
+    {
+        "package_name":"Pelajar",
+        "price": 46900,
+        "sale_price": 23450
+    },
+    {
+        "package_name":"Personal",
+        "price": 58900,
+        "sale_price": 38900
+    },
+    {
+        "package_name":"Bisnis",
+        "price": 109900,
+        "sale_price": 65900
+    }
+]
