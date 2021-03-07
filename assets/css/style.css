@@ -54,6 +54,20 @@
     src: url('/assets/fonts/roboto/Roboto-BlackItalic.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/assets/fonts/montserrat/Montserrat-Light.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: url('/assets/fonts/montserrat/Montserrat-Bold.otf') format('truetype');
+}
+
 a {
     color: #4c4c4c;
 }
@@ -66,9 +80,10 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     color: #4c4c4c;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 section {
@@ -82,6 +97,7 @@ section {
 
 #top-header {
     height: 40px;
+    font-size: 14px;
 }
 
 .price-tag {
@@ -118,7 +134,7 @@ section {
     padding-right: 12px;
 }
 
-.navbar-light .navbar-nav .nav-link:last-child {
+.navbar-nav .nav-item:last-child .nav-link {
     padding-right: 0px;
 }
 
@@ -133,9 +149,10 @@ section {
 
 .tagline .tagline__title {
     font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.tagline .tagline__description {
+.tagline .tagline__description, .section__description {
     font-size: 28px;
 }
 
@@ -154,4 +171,94 @@ section {
 .tagline .tagline__features li .fas {
     color: #00b348;
     margin-right: 7px;
+}
+
+.price-table table {
+    width: 25%;
+}
+
+.price-table table i.fas {
+    color: #008fee;
+}
+
+.button-round {
+    border: 2px solid #4c4c4c;
+    color: #4c4c4c;
+    border-radius: 22px;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 7px 12px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.button-round:hover {
+    border-color: #008fee;
+    background-color: #008fee;
+    color: #FFF;
+}
+
+.price-table .price-table__features {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.price-table .price-table__features p {
+    margin-bottom: 10px;
+}
+
+.price-table .price-table__features .button-round {
+    margin-top: 30px;
+}
+
+.price-table .price-table__package-title {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.price-table .price-table__price, .price-table .price-table__sale-price {
+    display: block;
+    font-size: 18px;
+}
+
+.price-table .price-table__price {
+    text-decoration: line-through;
+}
+
+.price-table .price-table__ribbon {
+    position: absolute;
+    display: block;
+    width: 100%;
+    padding: 8px 16px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 65%;
+    color: #fff;
+    background-color: #00b359;
+}
+
+.price-table .price-table__best-seller td {
+    border-color: #008fee;
+}
+
+.price-table .price-table__best-seller tr:nth-child(1), .price-table .price-table__best-seller tr:nth-child(2) {
+    background-color: #008fee;
+    color: #FFF;
+}
+
+.price-table .price-table__best-seller tr:nth-child(3) {
+    background-color: #007fde;
+    color: #FFF;
+
+}
+
+.price-table .price-table__best-seller .button-round {
+    border-color: #008fee;
+    background-color: #008fee;
+    color: #FFF;
+}
+
+.price-table__sale-price .sale-price__bigger {
+    font-size: 45px;
 }

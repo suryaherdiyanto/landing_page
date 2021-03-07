@@ -122,6 +122,89 @@
         </div>
     </section>
 
+    <section>
+        <div class="container">
+            <div class="row justify-content-center align-items-end">
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <p class="text-center">
+                        <img src="/assets/svg/zend-guard-logo.svg" alt="Sendguard" class="img img-fluid">
+                    </p>
+                    <p class="text-center mt-3">
+                        PHP Zend Guard
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <p class="text-center">
+                        <img src="/assets/images/logo-composer-transparent.png" alt="Sendguard" class="img img-fluid">
+                    </p>
+                    <p class="text-center mt-3">
+                        PHP Composer
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <p class="text-center">
+                        <img src="/assets/images/iconcube_small.png" alt="Sendguard" class="img img-fluid">
+                    </p>
+                    <p class="text-center mt-3">
+                        PHP IconCube Loader
+                    </p>
+                </div>
+            </div>
+            <div class="row pt-5 pb-5">
+                <div class="col-lg-12">
+                    <h2 class="text-center font-weight-bold">Paket Hosting Singapura yang Tepat</h2>
+                    <p class="text-center section__description">Diskon 40% + Domain dan SSL Gratis untuk Anda</p>
+                </div>
+            </div>
+            <div class="row pb-5">
+                <div class="col-lg-12">
+                    <div class="price-table d-flex justify-conten-center align-items-start">
+                        <?php
+                            $packages = json_decode(file_get_contents('price_list.json'), true);
+                        ?>
+                        <?php foreach ($packages as $key => $package): ?>
+                        <?php 
+                            $salePrice = number_format($package['sale_price'], 0, ',', '.');
+                            $priceSplit = explode('.', $salePrice);
+                            $newPrice = "<span class='sale-price__bigger'>".$priceSplit[0]."</span>" . substr($salePrice, strlen($priceSplit[0])); 
+                        ?>
+                        <table class="table table-bordered <?php echo $package['best_seller'] ? 'price-table__best-seller':'' ?>">
+                            <tr>
+                                <td class="text-center price-table__package-title">
+                                    <?php echo $package['package_name'] ?>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">
+                                    <span class="price-table__price">Rp <?php echo number_format($package['price'], 0, ',', '.') ?></span>
+                                    <span class="price-table__sale-price">Rp <strong><?php echo $newPrice ?></strong>/bln</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-center"><strong><?php echo number_format($package['total_users'], 0, ',', '.') ?></strong> Pengguna Terdaftar</td>
+                            </tr>
+                            <tr>
+                                <td class="text-center price-table__features">
+                                    <?php for($i = 0; $i < count($package['features']); $i++): ?>
+                                        <p><?php echo $package['features'][$i] ?></p>
+                                    <?php endfor ?>
+                                    <button type="button" class="button-round">
+                                        <?php if($package['discount'] > 0): ?>
+                                            Diskon <?php echo $package['discount'] ?>%
+                                        <?php else: ?>
+                                            Pilih Sekarang
+                                        <?php endif ?>
+                                    </button>
+                                </td>
+                            </tr>
+                        </table>
+                        <?php endforeach ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <script src="/assets/js/jquery-3.6.0.min.js"></script>
     <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
  </body>
