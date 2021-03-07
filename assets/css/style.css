@@ -169,8 +169,12 @@ section {
 }
 
 .tagline .tagline__features li .fas {
-    color: #00b348;
     margin-right: 7px;
+}
+
+.tagline .tagline__features li .fas, .fas.check-primary {
+    color: #00b348;
+    font-size: 18px;
 }
 
 .price-table table {
@@ -212,7 +216,7 @@ section {
 }
 
 .price-table .price-table__package-title {
-    font-size: 22px;
+    font-size: 28px;
     font-weight: 700;
 }
 
@@ -261,4 +265,31 @@ section {
 
 .price-table__sale-price .sale-price__bigger {
     font-size: 45px;
+}
+
+.main-title {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 30px;
+}
+
+.w-95 {
+    width: 95%;
+}
+
+.bg-gray {
+    background-color: rgba(0,0,0,.05);
+}
+
+.section-end-line {
+    text-align: center;
+}
+
+.section-end-line::after {
+    content: " ";
+    width: 120px;
+    height: 5px;
+    background-color: #f1f1f1;
+    white-space: pre;
+    display: inline-block;
+    margin: 40px auto;
 }

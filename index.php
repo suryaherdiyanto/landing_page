@@ -152,8 +152,8 @@
             </div>
             <div class="row pt-5 pb-5">
                 <div class="col-lg-12">
-                    <h2 class="text-center font-weight-bold">Paket Hosting Singapura yang Tepat</h2>
-                    <p class="text-center section__description">Diskon 40% + Domain dan SSL Gratis untuk Anda</p>
+                    <h2 class="main-title text-center font-weight-bold m-0">Paket Hosting Singapura yang Tepat</h2>
+                    <p class="main-title text-center section__description">Diskon 40% + Domain dan SSL Gratis untuk Anda</p>
                 </div>
             </div>
             <div class="row pb-5">
@@ -200,6 +200,44 @@
                         </table>
                         <?php endforeach ?>
                     </div>
+                </div>
+            </div>
+            <div class="row pb-5">
+                <div class="col-lg-12">
+                    <p class="main-title text-center section__description">Powerfull dengan Limit PHP yang Lebih Besar</p>
+                </div>
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <table class="table table-bordered">
+                                <tr>
+                                    <td><i class="fas fa-check-circle check-primary"></i> <p class="text-center d-inline-block w-95 m-0">max execution time 300s</p></td>
+                                </tr>
+                                <tr class="bg-gray">
+                                    <td><i class="fas fa-check-circle check-primary"></i> <p class="text-center d-inline-block w-95 m-0">max execution time 300s</p></td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fas fa-check-circle check-primary"></i> <p class="text-center d-inline-block w-95 m-0">php memory limit 1024 MB</p></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="col-lg-6">
+                            <table class="table table-bordered">
+                                <tr>
+                                    <td><i class="fas fa-check-circle check-primary"></i> <p class="text-center d-inline-block w-95 m-0">post max size 128 MB</p></td>
+                                </tr>
+                                <tr class="bg-gray">
+                                    <td><i class="fas fa-check-circle check-primary"></i> <p class="text-center d-inline-block w-95 m-0">upload maxfile size 128 MB</p></td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fas fa-check-circle check-primary"></i> <p class="text-center d-inline-block w-95 m-0">max input vars 2500</p></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="section-end-line"></div>
                 </div>
             </div>
         </div>
