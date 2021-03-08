@@ -98,7 +98,7 @@
                         <p class="tagline__description">
                             Cepat, handal, penuh dengan modul PHP yang anda butuhkan
                         </p>
-                        <ul class="tagline__features">
+                        <ul class="list-features">
                             <li>
                                 <i class="fas fa-check-circle"></i> Solusi PHP untuk performa query yang lebih cepat.
                             </li>
@@ -122,7 +122,7 @@
         </div>
     </section>
 
-    <section>
+    <section id="mainContent">
         <div class="container">
             <div class="row justify-content-center align-items-end">
                 <div class="col-sm-12 col-md-4 col-lg-4">
@@ -244,6 +244,181 @@
                 </div>
                 <div class="col-lg-12">
                     <div class="section-end-line"></div>
+                </div>
+            </div>
+            <div class="row pb-5">
+                <div class="col-lg-12">
+                    <p class="main-title text-center section__description">Semua Paket Hosting Sudah Termasuk</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4 pb-4">
+                    <p class="text-center">
+                        <img src="/assets/svg/icon PHP Hosting_PHP Semua Versi.svg" width="92" alt="" class="img img-fluid">
+                    </p>
+                    <h5 class="text-center font-weight-bold font-montserrat">PHP Semua Versi</h5>
+                    <p class="text-center font-montserrat">
+                        Pilih mulai dari versi PHP 5.3 s/d 7. Ubah sesuka anda.
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 pb-4">
+                    <p class="text-center">
+                        <img src="/assets/svg/icon PHP Hosting_My SQL.svg" width="92" alt="" class="img img-fluid">
+                    </p>
+                    <h5 class="text-center font-weight-bold font-montserrat">Mysql Versi 5.6</h5>
+                    <p class="text-center font-montserrat">
+                        Nikmati MySQL versi baru, tercepat dan kaya akan fitur.
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 pb-4">
+                    <p class="text-center font-montserrat">
+                        <img src="/assets/svg/icon PHP Hosting_CPanel.svg" width="92" alt="" class="img img-fluid">
+                    </p>
+                    <h5 class="text-center font-weight-bold font-montserrat">Panel Hosting cPanel</h5>
+                    <p class="text-center font-montserrat">
+                        Kelola website dengan panel canggih yang familiar di hari anda.
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 pb-4">
+                    <p class="text-center font-montserrat">
+                        <img src="/assets/svg/icon PHP Hosting_garansi uptime.svg" width="92" alt="" class="img img-fluid">
+                    </p>
+                    <h5 class="text-center font-weight-bold font-montserrat">Garansi Uptime 99.9%</h5>
+                    <p class="text-center font-montserrat">
+                        Data center yang mendukung kelangsungan website Anda 24/7.
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 pb-4">
+                    <p class="text-center font-montserrat">
+                        <img src="/assets/svg/icon PHP Hosting_InnoDB.svg" width="92" alt="" class="img img-fluid">
+                    </p>
+                    <h5 class="text-center font-weight-bold font-montserrat">Database InnoDB Unlimited</h5>
+                    <p class="text-center font-montserrat">
+                        Jumlah dan ukuran database yang tumbuh sesuai kebutuhan Anda.
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 pb-4">
+                    <p class="text-center font-montserrat">
+                        <img src="/assets/svg/icon PHP Hosting_My SQL remote.svg" width="92" alt="" class="img img-fluid">
+                    </p>
+                    <h5 class="text-center font-weight-bold font-montserrat">Wildcard Remote MySQL</h5>
+                    <p class="text-center font-montserrat">
+                        Mendukung s/d 25 max_user_connections dan 100 max_connections.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-end-line"></div>
+                </div>
+            </div>
+            <div class="row pb-3">
+                <div class="col-lg-12">
+                    <p class="main-title text-center section__description">Mendukung Penuh Framework Laravel</p>
+                </div>
+            </div>
+            <div class="row section-laravel">
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                    <p style="font-size: 18px; line-height: 1.8">
+                        Tak perlu menggunakan dedicated server atau VPS yang mahal. Layanan PHP hosting murah kami mendukung penuh framework favorit anda.
+                    </p>
+                    <ul class="list-features">
+                        <li>
+                            <i class="fas fa-check-circle"></i> Install Laravel <strong>1 klik</strong> dengan Softaculous Installer.
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i> Mendukung ekstensi <strong>PHP MCrypt, phar, mbstring, json, fileinfo</strong>.
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i> Tersedia <strong>Composer</strong> dan <strong>SSH</strong> untuk menginstall packages Anda.
+                        </li>
+                    </ul>
+                    <small>Nb. Composer dan SSH hanya tersedia pada paket Personal dan Bisnis</small>
+                    <p class="mt-5">
+                        <button class="button-round button-blue">Pilih Hosting Anda</button>
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                    <img src="/assets/svg/illustration banner support laravel hosting.svg" class="img img-fluid" alt="Laravel Hosting Support" srcset="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row pb-5">
+                <div class="col-lg-12">
+                    <p class="main-title text-center section__description">Modul Lengkap untuk Menjalankan Aplikasi Anda</p>
+                </div>
+                <div class="col-lg-12">
+                    <ul class="clean-list clean-list__php-features">
+                        <li>IcePHP</li>
+                        <li>apc</li>
+                        <li>apcu</li>
+                        <li>apm</li>
+                        <li>ares</li>
+                        <li>bcmath</li>
+                        <li>bcompiler</li>
+                        <li>big_int</li>
+                        <li>bitset</li>
+                        <li>bloomy</li>
+                        <li>bz2_filter</li>
+                        <li>clamav</li>
+                        <li>coin_acceptor</li>
+                        <li>crack</li>
+                        <li>dba</li>
+                        <li>http</li>
+                        <li>huffman</li>
+                        <li>idn</li>
+                        <li>igbinary</li>
+                        <li>imagick</li>
+                        <li>imap</li>
+                        <li>inclued</li>
+                        <li>inotify</li>
+                        <li>interbase</li>
+                        <li>intl</li>
+                        <li>ioncube_loader</li>
+                        <li>ioncube_loader_4</li>
+                        <li>jmin</li>
+                        <li>json</li>
+                        <li>Idap</li>
+                        <li>nd_pdo_mysql</li>
+                        <li>oauth</li>
+                        <li>oci8</li>
+                        <li>odbc</li>
+                        <li>opcache</li>
+                        <li>pdf</li>
+                        <li>pdo</li>
+                        <li>pdo_dblib</li>
+                        <li>pdo_firebird</li>
+                        <li>pdo_mysql</li>
+                        <li>pdo_odbc</li>
+                        <li>pdo_pgsql</li>
+                        <li>pdo_sqlite</li>
+                        <li>pgsql</li>
+                        <li>phalcon</li>
+                        <li>stats</li>
+                        <li>stem</li>
+                        <li>stomp</li>
+                        <li>suhosin</li>
+                        <li>sybase_ct</li>
+                        <li>sysvmsg</li>
+                        <li>sysvsem</li>
+                        <li>sysvshm</li>
+                        <li>tidy</li>
+                        <li>timezonedb</li>
+                        <li>trader</li>
+                        <li>translit</li>
+                        <li>uploadprogress</li>
+                        <li>uri_template</li>
+                        <li>uuid</li>
+                    </ul>
+                </div>
+                <div class="col-lg-12 pt-5 pb-5">
+                    <p class="text-center">
+                        <a href="#" class="button-round button-round-lg">Selengkapnya</a>
+                    </p>
                 </div>
             </div>
         </div>

@@ -58,14 +58,21 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    src: url('/assets/fonts/montserrat/Montserrat-Light.otf') format('truetype');
+    src: url('/assets/fonts/montserrat/Montserrat-Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    src: url('/assets/fonts/montserrat/Montserrat-Regular.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    src: url('/assets/fonts/montserrat/Montserrat-Bold.otf') format('truetype');
+    src: url('/assets/fonts/montserrat/Montserrat-Bold.otf') format('opentype');
 }
 
 a {
@@ -79,7 +86,7 @@ a:hover {
 body {
     padding: 0;
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     color: #4c4c4c;
     overflow-x: hidden;
@@ -91,7 +98,7 @@ section {
     padding-bottom: 30px;
 }
 
-#top-header, #headerMenu, #mainBanner {
+#top-header, #headerMenu, #mainBanner, #mainContent {
     border-bottom: 1px solid #cfcfcf;
 }
 
@@ -156,23 +163,23 @@ section {
     font-size: 28px;
 }
 
-.tagline .tagline__features {
+.list-features {
     margin: 0;
     padding: 0;
     list-style-type: none;
 }
 
-.tagline .tagline__features li {
+.list-features li {
     font-size: 18px;
     padding-top: 7px;
     padding-bottom: 7px;
 }
 
-.tagline .tagline__features li .fas {
+.list-features li .fas {
     margin-right: 7px;
 }
 
-.tagline .tagline__features li .fas, .fas.check-primary {
+.list-features li .fas, .fas.check-primary {
     color: #00b348;
     font-size: 18px;
 }
@@ -185,15 +192,24 @@ section {
     color: #008fee;
 }
 
-.button-round {
+.button-round,  a.button-round {
     border: 2px solid #4c4c4c;
     color: #4c4c4c;
-    border-radius: 22px;
+    border-radius: 24px;
     font-size: 18px;
     font-weight: 700;
-    padding: 7px 12px;
+    padding: 7px 12px 10px;
     background: transparent;
     cursor: pointer;
+}
+
+a.button-round:hover {
+    text-decoration: none;
+}
+
+.button-round.button-round-lg, a.button-round.button-round-lg {
+    padding: 10px 15px 15px;
+    border-radius: 30px;
 }
 
 .button-round:hover {
@@ -299,7 +315,7 @@ section {
 
 }
 
-.price-table .price-table__best-seller .button-round {
+.price-table .price-table__best-seller .button-round, .button-round.button-blue {
     border-color: #008fee;
     background-color: #008fee;
     color: #FFF;
@@ -338,4 +354,27 @@ section {
     white-space: pre;
     display: inline-block;
     margin: 40px auto;
+}
+
+.font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section-laravel .list-features li {
+    font-size: 16px;
+}
+
+.section-laravel .list-features {
+    margin-bottom: 1rem;
+}
+
+.clean-list {
+    margin: 0;
+    padding: 0;
+    padding-left: 15%;
+    list-style-type: none;
+}
+
+.clean-list__php-features {
+    columns: 4;
 }
