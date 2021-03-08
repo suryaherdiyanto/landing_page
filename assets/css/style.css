@@ -218,6 +218,7 @@ section {
 .price-table .price-table__package-title {
     font-size: 28px;
     font-weight: 700;
+    position: relative;
 }
 
 .price-table .price-table__price, .price-table .price-table__sale-price {
@@ -225,21 +226,62 @@ section {
     font-size: 18px;
 }
 
+.price-table .price-table__sale-price {
+    padding-top: 15px;
+}
+
+.price-table .price-table__sale-price strong {
+    vertical-align: top;
+}
+
 .price-table .price-table__price {
     text-decoration: line-through;
 }
 
 .price-table .price-table__ribbon {
+    width: 175px;
+    height: 175px;
     position: absolute;
+    left: -10px;
+    top: -10px;
+    overflow: hidden;
+    z-index: 9;
+}
+
+.price-table .price-table__ribbon span {
+    position: relative;
     display: block;
     width: 100%;
-    padding: 8px 16px;
+    padding: 12px 16px;
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 65%;
+    font-size: 50%;
     color: #fff;
     background-color: #00b359;
+    transform: rotate(-45deg);
+    left: -48px;
+    top: 17px;
+    box-shadow: 0px 0px 5px 0px #000;
+}
+
+.price-table .price-table__ribbon::after, .price-table .price-table__ribbon::before {
+    position: absolute;
+    content: " ";
+    white-space: pre;
+    height: 10px;
+    width: 10px;
+    background-color: green;
+}
+
+.price-table .price-table__ribbon::before {
+    left: 102px;
+}
+
+.price-table .price-table__ribbon::after {
+    left: 0;
+    bottom: 63px;
+    z-index: -1;
 }
 
 .price-table .price-table__best-seller td {
@@ -265,6 +307,10 @@ section {
 
 .price-table__sale-price .sale-price__bigger {
     font-size: 45px;
+    font-size: 45px;
+    margin-top: -15px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .main-title {

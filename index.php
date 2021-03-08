@@ -171,6 +171,12 @@
                         <table class="table table-bordered <?php echo $package['best_seller'] ? 'price-table__best-seller':'' ?>">
                             <tr>
                                 <td class="text-center price-table__package-title">
+                                    <?php if($package['best_seller']): ?>
+                                        <div class="price-table__ribbon">
+                                            <span>Best Seller!</span>
+                                        </div>
+                                    <?php endif ?>
+
                                     <?php echo $package['package_name'] ?>
                                 </td>
                             </tr>
