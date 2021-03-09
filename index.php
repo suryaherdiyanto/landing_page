@@ -335,7 +335,7 @@
                     </ul>
                     <small>Nb. Composer dan SSH hanya tersedia pada paket Personal dan Bisnis</small>
                     <p class="mt-5">
-                        <button class="button-round button-blue">Pilih Hosting Anda</button>
+                        <a href="#" class="button-round button-blue">Pilih Hosting Anda</a>
                     </p>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-6">
@@ -419,6 +419,66 @@
                     <p class="text-center">
                         <a href="#" class="button-round button-round-lg">Selengkapnya</a>
                     </p>
+                </div>
+            </div>
+            <div class="row align-items-end">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <p class="main-title section__description">Linux Hosting yang Stabil dengan Teknologi LVE</p>
+                    <p>
+                        SuperMicro <strong>Intel Core 24-Cores</strong> server dengan RAM 128MB dan <strong>Teknologi LVE CloudLinux</strong> untuk stabilitas server Anda.
+                        Dielngkapi dengan SSD untuk kecepatan <strong>MySQL</strong> dan caching, Apache, load balancer berbasis LiteSpeed Teknologies, <strong>CageFS</strong> security, <strong>Raid-10</strong> protection
+                        dan auto backup untuk keamanan website PHP Anda.
+                    </p>
+                    <p class="mt-5">
+                        <a href="#" class="button-round button-blue">Pilih Hosting Anda</a>
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <img src="/assets/images/Image support.png" alt="Image Support" class="img img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pb-5 pt-5 bg-gray">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-12 col-md-8 col-lg-8">
+                    <p class="text-black m-0">Bagikan jika menyukai halaman ini</p>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <ul class="socials clean-list">
+                        <li>
+                            <span class="socials__logo fb-background"><i class="fab fa-facebook-f"></i></span>
+                            <span class="socials__counter">80k</span>
+                        </li>
+                        <li>
+                            <span class="socials__logo twitter-background"><i class="fab fa-twitter"></i></span>
+                            <span class="socials__counter">450</span>
+                        </li>
+                        <li>
+                            <span class="socials__logo google-plus-background"><i class="fab fa-google-plus-g"></i></span>
+                            <span class="socials__counter">1900</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta" class="pb-5 pt-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div class="cta__text">
+                        <p class="m-0 text-center">
+                            Perlu <strong>BANTUAN</strong> Hubungi Kami : <strong>021-5305505</strong>
+                        </p>
+                        <span class="devider"></span>
+                        <a href="#" class="button-round button-blue button-cta">
+                            <i class="fas fa-comment-alt mr-3"></i>&nbsp; Live Chat
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
