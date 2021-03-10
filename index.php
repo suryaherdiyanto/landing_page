@@ -484,6 +484,145 @@
         </div>
     </section>
 
+    <footer class="footer">
+        <div class="container">
+            <div class="row pt-4 pb-4">
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <h3 class="footer__title">Hubungi Kami</h3>
+                    <p class="footer__text">
+                        0274-5305505 </br>
+                        Senin - Minggu </br>
+                        24 Jam Nonstop
+                    </p>
+                    <p class="footer__text">
+                        Jl. Selokan Mataram Monjali Karangjati MT I/34 Singuadi, Mlati, Sleman, Yogyakarta 55284
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <h3 class="footer__title">Layanan Kami</h3>
+                    <ul class="clean-list">
+                        <li><a href="#">Domain</a></li>
+                        <li><a href="#">Shared Hosting</a></li>
+                        <li><a href="#">Cloud VPS Hosting</a></li>
+                        <li><a href="#">Managed VPS Hosting</a></li>
+                        <li><a href="#">Web Builder</a></li>
+                        <li><a href="#">Keamanan SSL/HTTPS</a></li>
+                        <li><a href="#">Jasa Pembuatan Website</a></li>
+                        <li><a href="#">Program Afiliasi</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <h3 class="footer__title">Service Hosting</h3>
+                    <ul class="clean-list">
+                        <li><a href="#">Hosting Murah</a></li>
+                        <li><a href="#">Hosting Indonesia</a></li>
+                        <li><a href="#">Hosting Singapura SG</a></li>
+                        <li><a href="#">Hosting PHP</a></li>
+                        <li><a href="#">Hosting Wordpress</a></li>
+                        <li><a href="#">Hosting Laravel</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <h3 class="footer__title">Tutorial</h3>
+                    <ul class="clean-list">
+                        <li><a href="#">Knowldgebase</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Cara Pembayaran</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row pt-4 pb-4">
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <h3 class="footer__title">Tentang Kami</h3>
+                    <ul class="clean-list">
+                        <li><a href="#">Tim Niagahoster</a></li>
+                        <li><a href="#">Karir</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Penawaran & Promo Spesial</a></li>
+                        <li><a href="#">Kontak Kami</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <h3 class="footer__title">Kenapa Pilih Niagahoster?</h3>
+                    <ul class="clean-list">
+                        <li><a href="#">Support Terbaik</a></li>
+                        <li><a href="#">Garansi Harga Murah</a></li>
+                        <li><a href="#">Domain Gratis Selamanya</a></li>
+                        <li><a href="#">Datacenter Hosting Terbaik</a></li>
+                        <li><a href="#">Review Pelanggan</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <h3 class="footer__title">Newsletter</h3>
+                    <div class="footer__newsletter">
+                        <form action="#" class="form footer__newsletter__form-newsletter">
+                            <label for="email">
+                                <input type="email" name="email" id="email" class="newsletter-input" placeholder="Email">
+                                <button type="submit">Berlangganan</button>
+                            </label>
+                        </form>
+                        <small>Dapatkan promo dan konten menarik dari penyedia hosting terbaik Anda.</small>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <h3 class="footer__title">&nbsp;</h3>
+                    <div class="d-flex justify-content-between footer__socials">
+                        <a href="#">
+                            <span class="footer__social-icon">
+                                <i class="fab fa-facebook-f"></i>
+                            </span>
+                        </a>
+                        <a href="#">
+                            <span class="footer__social-icon">
+                                <i class="fab fa-twitter"></i>
+                            </span>
+                        </a>
+                        <a href="#">
+                            <span class="footer__social-icon">
+                                <i class="fab fa-google-plus-g"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-4 pb-4 footer__payment">
+                <div class="col md-12 col-lg-12">
+                    <h3 class="footer__title">Pembayaran</h3>
+                    <div class="image-frame">
+                        <img src="/assets/svg/payment-bca.svg" width="64px" alt="Payment BCA">
+                    </div>
+                    <div class="image-frame">
+                        <img src="/assets/svg/payment-mandiri.svg" width="64px" alt="Payment Mandiri">
+                    </div>
+                    <div class="image-frame">
+                        <img src="/assets/svg/payment-bni.svg" width="64px" alt="Payment BNI">
+                    </div>
+                    <div class="image-frame">
+                        <img src="/assets/svg/payment-master.svg" width="64px" alt="Payment Master Card">
+                    </div>
+                    <div class="image-frame">
+                        <img src="/assets/svg/payment-visa.svg" width="64px" alt="Payment Visa">
+                    </div>
+                    <div class="image-frame">
+                        <img src="/assets/svg/payment-atm-bersama.svg" width="64px" alt="Payment ATM Bersama">
+                    </div>
+                    <div class="image-frame">
+                        <img src="/assets/svg/payment-alto.svg" width="64px" alt="Payment ALTO">
+                    </div>
+                    <small class="d-block mt-4">Aktifasi instan dengan e-payment Hosting dan Domain langsung aktif</small>
+                </div>
+            </div>
+            <div class="row pt-3 pb-3 footer__bottom">
+                <div class="col-md-12 col-lg-9">
+                    <p class="footer__bottom-text">Copyright 2016 Niagahoster | Hosting powered by PHP 7, CloudLinux, CloudFrale, BitNinja dan Biznet Technovilla Jakarta Cloud VPS Murah Powered by Webuzo Softaculous, Intel SSD and cloud computing technology </p>
+                </div>
+                <div class="col-md-12 col-lg-3">
+                    <a href="#">Syarat dan Ketentuan</a> | <a href="#">Kebijakan Privasi</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
     <script src="/assets/js/jquery-3.6.0.min.js"></script>
     <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
  </body>

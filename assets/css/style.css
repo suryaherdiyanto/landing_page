@@ -93,7 +93,7 @@ body {
     overflow-y: scroll;
 }
 
-section {
+section,footer {
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -470,4 +470,105 @@ a.button-round:hover {
     width: 2px;
     height: 60px;
     border-right: 1px solid rgba(255, 255, 255, 0.45);
+}
+
+.footer {
+    background-color: #303030;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.footer small {
+    color: #8e8e8e;
+}
+
+.footer__title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #8e8e8e;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.footer .clean-list li a, .footer p {
+    color: #d8d8d8;
+}
+
+.footer .clean-list li a {
+    font-size: 14px;
+}
+
+.footer .clean-list {
+    padding: 0;
+}
+
+.footer .footer__newsletter .footer__newsletter__form-newsletter label {
+    width: 100%;
+    display: block;
+    background-color: #FFF;
+    height: 55px;
+    border-radius: 30px;
+    padding: 5px;
+    padding-left: 10px;
+    position: relative;
+}
+
+.footer .footer__newsletter .footer__newsletter__form-newsletter .newsletter-input {
+    border: none;
+    background: transparent;
+    height: 100%;
+    width: 53%;
+    outline: none;
+}
+
+.footer .footer__newsletter .footer__newsletter__form-newsletter button[type="submit"], .footer .footer__newsletter .footer__newsletter__form-newsletter input[type="submit"] {
+    width: 45%;
+    height: 100%;
+    border-radius: 25px;
+    border: 1px solid #00a2f3;
+    background-color: #00a2f3;
+    color: #FFF;
+    font-weight: 400;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.footer .footer__socials a {
+    color: #dee1e5;
+}
+
+.footer .footer__socials a:hover {
+    text-decoration: none;
+}
+
+.footer .footer__payment .image-frame {
+    width: 78px;
+    line-height: 45px;
+    margin-right: 10px;
+    text-align: center;
+    border: 1.2px solid #dee1e5;
+    border-radius: 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer .footer__social-icon {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #dee1e5;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .footer__bottom {
+    border-top: 1px solid #292929;
+    font-size: 12px;
+}
+
+.footer .footer__bottom a,.footer .footer__bottom  {
+    color: #d8d8d8;
 }
