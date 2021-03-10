@@ -14,13 +14,13 @@
         <div id="top-header">
             <div class="container h-100">
                 <div class="row justify-content-between h-100">
-                    <div class="col-sm-12 col-md-5 col-lg-5 h-100 d-flex">
+                    <div class="col-sm-12 col-md-6 col-lg-6 h-100 d-flex">
                         <span class="price-tag">
                             <i class="fas fa-tag"></i>
                         </span>
                         <a href="#" class="ml-1 mt-1">Gratis Ebook 9 Cara Cerdas Menggunakan Domain [x]</a>
                     </div>
-                    <div class="col-sm-12 col-md-5 col-lg-5 d-flex align-items-center justify-content-end h-100">
+                    <div class="col-sm-12 col-md-6 col-lg-6 d-flex align-items-center justify-content-end h-100 top-header__right">
                         <span class="ml-3">
                             <a href="tel:02745305505">
                                 <i class="fas fa-phone mr-1"></i> 0274-5305505
@@ -217,26 +217,26 @@
                         <div class="col-lg-6">
                             <table class="table table-bordered">
                                 <tr>
-                                    <td><i class="fas fa-check-circle check-primary"></i> <p class="text-center d-inline-block w-95 m-0">max execution time 300s</p></td>
+                                    <td><i class="fas fa-check-circle check-primary"></i> <p class="text-center d-inline-block w-90 m-0">max execution time 300s</p></td>
                                 </tr>
                                 <tr class="bg-gray">
-                                    <td><i class="fas fa-check-circle check-primary"></i> <p class="text-center d-inline-block w-95 m-0">max execution time 300s</p></td>
+                                    <td><i class="fas fa-check-circle check-primary"></i> <p class="text-center d-inline-block w-90 m-0">max execution time 300s</p></td>
                                 </tr>
                                 <tr>
-                                    <td><i class="fas fa-check-circle check-primary"></i> <p class="text-center d-inline-block w-95 m-0">php memory limit 1024 MB</p></td>
+                                    <td><i class="fas fa-check-circle check-primary"></i> <p class="text-center d-inline-block w-90 m-0">php memory limit 1024 MB</p></td>
                                 </tr>
                             </table>
                         </div>
                         <div class="col-lg-6">
                             <table class="table table-bordered">
                                 <tr>
-                                    <td><i class="fas fa-check-circle check-primary"></i> <p class="text-center d-inline-block w-95 m-0">post max size 128 MB</p></td>
+                                    <td><i class="fas fa-check-circle check-primary"></i> <p class="text-center d-inline-block w-90 m-0">post max size 128 MB</p></td>
                                 </tr>
                                 <tr class="bg-gray">
-                                    <td><i class="fas fa-check-circle check-primary"></i> <p class="text-center d-inline-block w-95 m-0">upload maxfile size 128 MB</p></td>
+                                    <td><i class="fas fa-check-circle check-primary"></i> <p class="text-center d-inline-block w-90 m-0">upload maxfile size 128 MB</p></td>
                                 </tr>
                                 <tr>
-                                    <td><i class="fas fa-check-circle check-primary"></i> <p class="text-center d-inline-block w-95 m-0">max input vars 2500</p></td>
+                                    <td><i class="fas fa-check-circle check-primary"></i> <p class="text-center d-inline-block w-90 m-0">max input vars 2500</p></td>
                                 </tr>
                             </table>
                         </div>
@@ -317,8 +317,8 @@
                     <p class="main-title text-center section__description">Mendukung Penuh Framework Laravel</p>
                 </div>
             </div>
-            <div class="row section-laravel">
-                <div class="col-sm-12 col-md-12 col-lg-6">
+            <div class="row section-laravel align-items-center">
+                <div class="col-sm-12 col-md-6 col-lg-6">
                     <p style="font-size: 18px; line-height: 1.8">
                         Tak perlu menggunakan dedicated server atau VPS yang mahal. Layanan PHP hosting murah kami mendukung penuh framework favorit anda.
                     </p>
@@ -338,7 +338,7 @@
                         <a href="#" class="button-round button-blue">Pilih Hosting Anda</a>
                     </p>
                 </div>
-                <div class="col-sm-12 col-md-12 col-lg-6">
+                <div class="col-sm-12 col-md-6 col-lg-6">
                     <img src="/assets/svg/illustration banner support laravel hosting.svg" class="img img-fluid" alt="Laravel Hosting Support" srcset="">
                 </div>
             </div>
@@ -443,10 +443,10 @@
     <section class="pb-5 pt-5 bg-gray">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-sm-12 col-md-8 col-lg-8">
+                <div class="col-sm-12 col-md-4 col-lg-8">
                     <p class="text-black m-0">Bagikan jika menyukai halaman ini</p>
                 </div>
-                <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="col-sm-12 col-md-8 col-lg-4">
                     <ul class="socials clean-list">
                         <li>
                             <span class="socials__logo fb-background"><i class="fab fa-facebook-f"></i></span>
